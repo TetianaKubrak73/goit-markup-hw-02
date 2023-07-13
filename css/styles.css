@@ -50,13 +50,15 @@ text-decoration: none;
     color: var(--ocean, #404BBF);
 }
 
+.adress {
+    font-style: normal;
+}
 .header-adress-link {
     color: var(--slate, #434455);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-font-style: normal;
 }
 
 .header-adress-link:hover {
@@ -232,7 +234,6 @@ color: var(--cloud, #F4F4FD);
 .section-text {
     color: var(--slate, #434455);
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
