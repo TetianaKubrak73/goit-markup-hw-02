@@ -18,7 +18,9 @@ body {
 .link {
 text-decoration: none;
 }
-
+.list {
+    list-style: none;
+}
 .header-logo {
     color: var(--iris, #4D5AE5);
         font-family: Raleway, sans-serif;
@@ -94,6 +96,10 @@ color: var(--ocean, #404BBF);
     background-color: var(--ocean, #404BBF);
 }
 
+.order-button:focus {
+    background-color: var(--ocean, #404BBF);
+}
+
 /*.visually-hidden {
     position: absolute;
     width: 1px;
@@ -153,7 +159,6 @@ color: var(--ocean, #404BBF);
 
 .team-titl-three {
     color: var(--navyblue, #2E2F42);
-        text-align: center;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -162,7 +167,6 @@ color: var(--ocean, #404BBF);
 }
 .team-text {
     color: var(--slate, #434455);
-        text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -200,8 +204,6 @@ color: var(--cloud, #F4F4FD);
         background-color: var(--cloud, #F4F4FD);
         color: var(--iris, #4D5AE5);
             text-align: center;
-        
-            /* Button Text */
             font-family: inherit;
             font-size: 16px;
             font-weight: 500;
@@ -218,6 +220,7 @@ color: var(--cloud, #F4F4FD);
 .section button:focus {
     background: var(--ocean, #404BBF);
     color: var(--white, #FFFFFF);
+}
 
 .section-titl {
     color: var(--navyblue, #2E2F42);
@@ -226,7 +229,7 @@ color: var(--cloud, #F4F4FD);
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
-.section-link {
+.section-text {
     color: var(--slate, #434455);
         font-size: 16px;
         font-weight: 400;
@@ -234,10 +237,3 @@ color: var(--cloud, #F4F4FD);
         letter-spacing: 0.02em;
 }
 
-.section-link:hover {
-    color: var(--ocean, #404BBF);
-}
-
-.section-link:focus {
-    color: var(--ocean, #404BBF);
-}
