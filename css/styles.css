@@ -68,10 +68,10 @@ color: var(--ocean, #404BBF);
 .header-adress-link:focus {
     color:var(--ocean, #404BBF);
 }
-.order {
+.hero {
     background: var(--navyblue, #2E2F42);
 }
-.order-titl {
+.hero-titl {
     color: var(--white, #FFF);
         text-align: center;
         font-size: 56px;
@@ -80,7 +80,7 @@ color: var(--ocean, #404BBF);
         letter-spacing: 0.02em;
 }
 
-.order-button {
+.hero-button {
     
         background: var(--iris, #4D5AE5);
             color: var(--white, #FFF);
@@ -94,11 +94,11 @@ color: var(--ocean, #404BBF);
             cursor: pointer;
 }
 
-.order-button:hover {
+.hero-button:hover {
     background-color: var(--ocean, #404BBF);
 }
 
-.order-button:focus {
+.hero-button:focus {
     background-color: var(--ocean, #404BBF);
 }
 
