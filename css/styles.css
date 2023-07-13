@@ -84,8 +84,6 @@ color: var(--ocean, #404BBF);
     
         background: var(--iris, #4D5AE5);
             color: var(--white, #FFF);
-        
-            /* Button Text */
             font-family: inherit;
             font-size: 16px;
             font-weight: 500;
@@ -101,20 +99,6 @@ color: var(--ocean, #404BBF);
 .hero-button:focus {
     background-color: var(--ocean, #404BBF);
 }
-
-/*.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}*/
 
 .advantages-titl {
     color: var(--navyblue, #2E2F42);
@@ -202,7 +186,6 @@ color: var(--cloud, #F4F4FD);
 
 
 .section button {
-        border: 1px solid var(--cornflower, #E7E9FC);
         background-color: var(--cloud, #F4F4FD);
         color: var(--iris, #4D5AE5);
             text-align: center;
